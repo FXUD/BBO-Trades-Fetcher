@@ -1,0 +1,29 @@
+# Market Data Configuration - Same pairs for latency comparison
+
+binance:
+  symbols:
+    - "BTCUSDT"
+    - "ETHUSDT"
+    - "ADAUSDT"
+    - "SOLUSDT"
+    - "XRPUSDT"
+    - "DOGEUSDT"
+    - "SUIUSDT"
+    - "HUSDT"  
+    - "TONUSDT"
+    - "AAVEUSDT"
+    - "PENGUUSDT"
+
+kucoin:
+  symbols:
+    - "BTCUSDT"  # KuCoin - 在连接器中会 mapping 为 XBTUSDTM，config中保持一致
+    - "ETHUSDT"   
+    - "ADAUSDT"  
+    - "SOLUSDT"  
+    - "XRPUSDT"
+    - "DOGEUSDT"
+    - "SUIUSDT"
+    - "HUSDT"  
+    - "TONUSDT"
+    - "AAVEUSDT"
+    - "PENGUUSDT"
